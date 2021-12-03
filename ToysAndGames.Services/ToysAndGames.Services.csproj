@@ -7,8 +7,10 @@
   <ItemGroup>
     <Folder Include="Abstractions\" />
     <Folder Include="Configuration\" />
-    <Folder Include="Contracts\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToysAndGames.Data\ToysAndGames.Data.csproj" />
   </ItemGroup>
 
 </Project>

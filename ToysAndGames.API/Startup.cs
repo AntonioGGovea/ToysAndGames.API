@@ -13,6 +13,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ToysAndGames.Data;
+using ToysAndGames.Services.Contracts;
+using ToysAndGames.Services.Services;
 
 namespace ToysAndGames.API
 {
@@ -31,6 +33,8 @@ namespace ToysAndGames.API
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")
                 ));
+
+            services.AddScoped<IProductsRepository, ProductsRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
