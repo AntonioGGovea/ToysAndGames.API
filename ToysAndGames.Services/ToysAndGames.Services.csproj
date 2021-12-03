@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\" />
-    <Folder Include="Configuration\" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ToysAndGames.Data\ToysAndGames.Data.csproj" />
+    <ProjectReference Include="..\ToysAndGames.DTOs\ToysAndGames.DTOs.csproj" />
   </ItemGroup>
 
 </Project>

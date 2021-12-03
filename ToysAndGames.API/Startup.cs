@@ -14,6 +14,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ToysAndGames.Data;
 using ToysAndGames.Services.Contracts;
+using ToysAndGames.Services.Mappers;
 using ToysAndGames.Services.Services;
 
 namespace ToysAndGames.API
@@ -35,6 +36,8 @@ namespace ToysAndGames.API
                 ));
 
             services.AddScoped<IProductsRepository, ProductsRepository>();
+
+            services.AddAutoMapper(typeof(Mappings));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
