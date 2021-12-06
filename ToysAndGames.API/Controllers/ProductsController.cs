@@ -96,7 +96,7 @@ namespace ToysAndGames.API.Controllers
             var result = _productRepo.DeleteProduct(product);
             if (!result)
             {
-                return StatusCode(500, $"Something went wrong when updating the product {product.Name}");
+                return StatusCode(500, $"Something went wrong when removing the product {product.Name}");
             }
             return NoContent();
         }

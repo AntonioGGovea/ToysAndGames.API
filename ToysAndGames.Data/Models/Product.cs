@@ -12,13 +12,8 @@ namespace ToysAndGames.Data.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-
-        [Range(0, 100)]
         public int? AgeRestriction { get; set; }
-
         public string Company { get; set; }
-
-        [Range(1, 1000)]
         public decimal Price { get; set; }
     }
 }

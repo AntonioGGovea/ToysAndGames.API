@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToysAndGames.API", "ToysAndGames.API\ToysAndGames.API.csproj", "{536BBD63-CC64-482E-BF27-C36DDAB77FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToysAndGames.API", "ToysAndGames.API\ToysAndGames.API.csproj", "{536BBD63-CC64-482E-BF27-C36DDAB77FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToysAndGames.Data", "ToysAndGames.Data\ToysAndGames.Data.csproj", "{0FF36A99-EBBA-4C76-BB61-A3E8512035EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToysAndGames.Data", "ToysAndGames.Data\ToysAndGames.Data.csproj", "{0FF36A99-EBBA-4C76-BB61-A3E8512035EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToysAndGames.DTOs", "ToysAndGames.DTOs\ToysAndGames.DTOs.csproj", "{3AEE5DA6-9B40-492C-8442-AA9D4EC5E987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToysAndGames.DTOs", "ToysAndGames.DTOs\ToysAndGames.DTOs.csproj", "{3AEE5DA6-9B40-492C-8442-AA9D4EC5E987}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToysAndGames.Services", "ToysAndGames.Services\ToysAndGames.Services.csproj", "{E90B29DB-AA3F-4F4A-A1AF-8BA31828736E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToysAndGames.Services", "ToysAndGames.Services\ToysAndGames.Services.csproj", "{E90B29DB-AA3F-4F4A-A1AF-8BA31828736E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToysAndGames.Tests", "ToysAndGames.Tests\ToysAndGames.Tests.csproj", "{2061DF60-88EF-455B-8F0C-0397B16EAA02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E90B29DB-AA3F-4F4A-A1AF-8BA31828736E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90B29DB-AA3F-4F4A-A1AF-8BA31828736E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90B29DB-AA3F-4F4A-A1AF-8BA31828736E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2061DF60-88EF-455B-8F0C-0397B16EAA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2061DF60-88EF-455B-8F0C-0397B16EAA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2061DF60-88EF-455B-8F0C-0397B16EAA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2061DF60-88EF-455B-8F0C-0397B16EAA02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
