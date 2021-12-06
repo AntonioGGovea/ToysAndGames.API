@@ -26,8 +26,8 @@ namespace ToysAndGames.Tests.UnitTests.Fixtures
 
         public Product product2 => new Product()
         {
-            Id = 1,
-            Name = "product1",
+            Id = 2,
+            Name = "product2",
             Description = null,
             AgeRestriction = 12,
             Company = "company1",
@@ -36,9 +36,9 @@ namespace ToysAndGames.Tests.UnitTests.Fixtures
 
         public Product product3 => new Product()
         {
-            Id = 1,
-            Name = "product1",
-            Description = "product one",
+            Id = 3,
+            Name = "product3",
+            Description = "product three",
             AgeRestriction = null,
             Company = "company1",
             Price = 20
