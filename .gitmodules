@@ -1,0 +1,3 @@
+[submodule "Animes"]
+	path = Animes
+	url = https://github.com/AntonioGGovea/Animes.git
